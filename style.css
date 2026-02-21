@@ -1,11 +1,11 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #fff8f2;
+    background-color: #f4f6f9; 
 }
 
 header {
-    background: linear-gradient(135deg, #ff6a00, #ff8c42);
+    background: linear-gradient(135deg, #003366, #005BAC); 
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -23,7 +23,7 @@ header h1 {
     width: 80%;
     max-width: 800px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(255,106,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 51, 102, 0.1); 
     transition: transform 0.2s ease;
 }
 
@@ -32,7 +32,7 @@ header h1 {
 }
 
 h2 {
-    color: #ff6a00;
+    color: #003366; 
 }
 
 ul li {
@@ -42,7 +42,7 @@ ul li {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #ff6a00;
+    background-color: #003366; 
     color: white;
     margin-top: 40px;
 }
