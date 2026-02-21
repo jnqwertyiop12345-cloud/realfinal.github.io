@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>김진호의 과제용 홈페이지</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>김진호의 과제 제출용 홈페이지</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-    <h1>과제 제출 홈페이지</h1>
-    <p>한국기술교육대학교 신입생</p>
-    <nav>
-        <a href="#about">자기소개</a>
-        <a href="#goal">대학생활 목표</a>
-        <a href="#timeline">학습 단계</a>
-    </nav>
+  <h1>과제 제출 홈페이지</h1>
+  <p>한국기술교육대학교 신입생</p>
+  <nav>
+    <a href="#about">자기소개</a>
+    <a href="#goal">대학생활 목표</a>
+    <a href="#timeline">학습 단계</a>
+  </nav>
 </header>
 
+<!-- 프로필 + 주요 정보 섹션 -->
+<section id="profile" class="card profile-card">
+  <div class="profile-left">
+    <div class="profile-initial">OO</div>
+    <h2>김진호</h2>
+    <h4>공학융합계열 대학생</h4>
+    <p>안녕하세요, 20살 공학융합계열 전공 김진호입니다.<br />
+      새로운 기술 배우기를 좋아하며<br />
+      꾸준히 공부하고 있습니다.</p>
+  </div>
+  <div class="profile-right">
+    <table>
+      <tbody>
+        <tr><th>나이</th><td>20살</td></tr>
+        <tr><th>전공</th><td>공학융합계열</td></tr>
+        <tr><th>취미</th><td>무엇이든 만들고, 배워보기</td></tr>
+        <tr><th>특기</th><td>기계조작 능력</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <section id="about" class="card">
-    <h2>👤 자기 소개</h2>
-    <p>
-        안녕하세요. 저는 한국기술교육대학교에 재학 중인 김진호입니다.
-        AI가 점점 더 발전하고 있는 현대에서 AI와 소프트웨어 분야에 대한 관심이 생겨 교수님의 온라인 강의를 수강하게 되었습니다.
-    </p>
+  <h2>👤 자기 소개</h2>
+  <p>
+    안녕하세요. 저는 한국기술교육대학교에 새로 입학한 김진호입니다.<br />
+    AI가 점점 발달하고 있는 현대에 AI 및 소프트웨어 분야에 대한 관심을 가지고 배워보고 싶어 교수님의 온라인 강의를 신청했습니다.
+  </p>
 </section>
 
 <section id="goal" class="card">
-    <h2>🎯 대학생활 목표</h2>
-    <p>
-        대학 생활 동안 GitHub와 VS Code를 활용한 홈페이지 제작 능력을 키우고,
-        실습을 통해 나만의 홈페이지를 만들어보는 것이 목표입니다.
-        이를 통해 개발 환경 이해와 실무 능력을 함께 향상시키고자 합니다.
-    </p>
+  <h2>🎯 대학생활 목표</h2>
+  <p>
+    대학 생활 동안 GitHub와 VS Code를 활용한 홈페이지 제작 능력을 키우고,
+    실습을 통해 나만의 홈페이지를 만들어보는 것이 목표입니다!<br />
+  </p>
 </section>
 
 <section id="timeline" class="timeline">
-    <h2>학습 단계와 목표</h2>
-    <div class="timeline-container">
-        <div class="timeline-item">
-            <div class="circle">1</div>
-            <p>GitHub, VS Code 개념 학습</p>
-        </div>
-        <div class="timeline-item">
-            <div class="circle">2</div>
-            <p>GitHub에서 간단한 홈페이지 만들기</p>
-        </div>
-        <div class="timeline-item">
-            <div class="circle">3</div>
-            <p>GitHub 이해 후 나만의 홈페이지 제작</p>
-        </div>
+  <h2>🛠 학습 단계</h2>
+  <div class="timeline-container">
+    <div class="timeline-item">
+      <div class="circle">1</div>
+      <a href="step1.html" target="_blank">GitHub, VS Code 개념 학습</a>
     </div>
+    <div class="timeline-item">
+      <div class="circle">2</div>
+      <a href="step2.html" target="_blank">GitHub에서 간단한 홈페이지 만들기</a>
+    </div>
+    <div class="timeline-item">
+      <div class="circle">3</div>
+      <a href="step3.html" target="_blank">GitHub 이해 후 나만의 홈페이지 제작</a>
+    </div>
+  </div>
 </section>
 
 <footer>
-    <p>김진호 | 2026100653 | 2026년 2월</p>
+  <p>김진호 | 2026100653 | 2026년 2월</p>
 </footer>
 
 </body>
