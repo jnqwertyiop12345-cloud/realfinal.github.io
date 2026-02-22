@@ -158,6 +158,39 @@ h2 {
   font-size: 1.2rem;
 }
 
+/* ========================= */
+/* 관심분야 섹션 */
+/* ========================= */
+
+#interest {
+  text-align: center;
+}
+
+.interest-container {
+  margin-top: 25px;
+}
+
+.interest-item {
+  display: inline-block;
+  padding: 12px 35px;
+  margin: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #005BAC, #003366);
+  border-radius: 50px; /* 타원형 */
+  box-shadow: 0 6px 15px rgba(0, 51, 102, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* 마우스 효과 */
+.interest-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0, 51, 102, 0.3);
+  background: linear-gradient(135deg, #0077e6, #004080);
+}
+
 /* Footer */
 footer {
   text-align: center;
